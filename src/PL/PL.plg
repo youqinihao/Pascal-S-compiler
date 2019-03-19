@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PL.res" /d "NDEBUG" /d "_AFXDLL" "E:\34060725_游举国\34060725\源代码\PL\PL.rc"" 
+Creating temporary file "C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PL.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\34060725_游举国\34060725\源代码\PL\CntrItem.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\ErrorView.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\MainFrm.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PL.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PLDoc.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PLTreeView.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PLView.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\Syntax.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD2.tmp" 
+Creating temporary file "C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PL.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\34060725_游举国\34060725\源代码\PL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD3.tmp" 
+Creating temporary file "C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PL.pdb" /machine:I386 /out:"Release/PL.exe" 
+".\Release\CntrItem.obj"
+".\Release\ErrorView.obj"
+".\Release\MainFrm.obj"
+".\Release\PL.obj"
+".\Release\PLDoc.obj"
+".\Release\PLTreeView.obj"
+".\Release\PLView.obj"
+".\Release\StdAfx.obj"
+".\Release\Syntax.obj"
+".\Release\PL.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CntrItem.cpp
+ErrorView.cpp
+MainFrm.cpp
+PL.cpp
+PLDoc.cpp
+PLTreeView.cpp
+PLView.cpp
+Syntax.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PL.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: PL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PL.res" /d "_DEBUG" /d "_AFXDLL" "E:\34060725_游举国\34060725\源代码\PL\PL.rc"" 
+Creating temporary file "C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PL.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\34060725_游举国\34060725\源代码\PL\CntrItem.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\ErrorView.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\MainFrm.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PL.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PLDoc.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PLTreeView.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\PLView.cpp"
+"E:\34060725_游举国\34060725\源代码\PL\Syntax.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD7.tmp" 
+Creating temporary file "C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PL.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\34060725_游举国\34060725\源代码\PL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD8.tmp" 
+Creating temporary file "C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PL.pdb" /debug /machine:I386 /out:"Debug/PL.exe" /pdbtype:sept 
+".\Debug\CntrItem.obj"
+".\Debug\ErrorView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PL.obj"
+".\Debug\PLDoc.obj"
+".\Debug\PLTreeView.obj"
+".\Debug\PLView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Syntax.obj"
+".\Debug\PL.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\tiantian\LOCALS~1\Temp\RSPD9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CntrItem.cpp
+ErrorView.cpp
+MainFrm.cpp
+PL.cpp
+PLDoc.cpp
+PLTreeView.cpp
+PLView.cpp
+Syntax.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PL.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CntrItem.sbr" ".\Debug\ErrorView.sbr" ".\Debug\MainFrm.sbr" ".\Debug\PL.sbr" ".\Debug\PLDoc.sbr" ".\Debug\PLTreeView.sbr" ".\Debug\PLView.sbr" ".\Debug\Syntax.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PL.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

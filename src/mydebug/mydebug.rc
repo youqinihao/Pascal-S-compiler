@@ -1,0 +1,326 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\mydebug.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "mydebug DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "mydebug\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "mydebug.DLL\0"
+            VALUE "ProductName", "mydebug Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 90, 26
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单步执行"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "下一步",IDOK,9,7,31,12
+    PUSHBUTTON      "全部执行",IDCANCEL,49,7,31,12
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 90, 26
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "单步执行"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "下一步",IDOK,9,7,31,12
+    PUSHBUTTON      "全部执行",IDCANCEL,49,7,31,12
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 371, 270
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "各种表格和程序数据输出"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,222,175,87,88,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL
+    LISTBOX         IDC_LIST1,152,191,60,72,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CONTROL         "Pcode与x、y域",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_CENTERIMAGE | WS_GROUP,162,151,56,14
+    ICON            IDI_ICON3,IDC_STATIC,144,151,20,20
+    ICON            IDI_ICON4,IDC_STATIC,232,151,20,20
+    LTEXT           "输出窗口",IDC_STATIC,252,151,46,14,SS_CENTERIMAGE
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,176,137,87
+    CONTROL         "List3",IDC_LIST3,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,23,137,56
+    LISTBOX         IDC_LIST4,152,111,59,33,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    CTEXT           "分程序表",IDC_STATIC,62,4,39,12,SS_CENTERIMAGE
+    LTEXT           "实常数表",IDC_STATIC,170,94,35,12,SS_CENTERIMAGE
+    LTEXT           "符号表",IDC_STATIC,62,154,35,15,SS_CENTERIMAGE
+    LTEXT           "字符串常量表",IDC_STATIC,161,4,49,13,SS_CENTERIMAGE,0,
+                    HIDC_STATIC
+    EDITTEXT        IDC_EDIT3,152,21,62,18,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_HSCROLL
+    ICON            IDI_ICON6,IDC_STATIC,42,153,20,20
+    ICON            IDI_ICON7,IDC_STATIC,144,4,20,20
+    ICON            IDI_ICON8,IDC_STATIC,43,4,20,20
+    ICON            IDI_ICON9,IDC_STATIC,155,91,20,20
+    LTEXT           "运行栈",IDC_STATIC,251,45,32,10,SS_CENTERIMAGE
+    LISTBOX         IDC_LIST5,222,77,87,67,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    ICON            IDI_ICON10,IDC_STATIC,231,42,20,20
+    EDITTEXT        IDC_EDIT2,221,60,88,12,ES_CENTER | ES_READONLY
+    LTEXT           "display表(运行时)",IDC_STATIC,168,40,33,17
+    ICON            IDI_ICON11,IDC_STATIC,150,39,20,20
+    LISTBOX         IDC_LIST6,152,60,60,32,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "执行",IDC_BUTTON1,320,184,44,11
+    PUSHBUTTON      "下一步",IDC_BUTTON2,320,145,44,11
+    PUSHBUTTON      "刷新表格",IDC_BUTTON3,320,55,44,11
+    EDITTEXT        IDC_EDIT4,152,175,60,13,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT5,323,90,41,10,ES_AUTOHSCROLL
+    CTEXT           "断点行号：",IDC_STATIC,325,75,39,12,SS_CENTERIMAGE
+    PUSHBUTTON      "跳至",IDC_BUTTON4,320,106,44,11
+    EDITTEXT        IDC_EDIT6,219,21,88,19,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_HSCROLL
+    LTEXT           "当前源程序行",IDC_STATIC,240,4,58,13,SS_CENTERIMAGE
+    ICON            IDI_ICON12,IDC_STATIC,222,4,20,20
+    LTEXT           "数组信息向量表",IDC_STATIC,51,86,67,11
+    ICON            IDI_ICON13,IDC_STATIC,25,82,20,20
+    CONTROL         "List7",IDC_LIST7,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,7,99,137,47
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 191, 56
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,122,26,50,14
+    EDITTEXT        IDC_EDIT1,22,26,85,14,ES_AUTOHSCROLL
+    LTEXT           "注:每次只能输入程序中对应的一个数据",IDC_STATIC,27,7,
+                    157,15,SS_CENTERIMAGE
+    ICON            IDI_ICON2,IDC_STATIC,7,7,20,20
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 122, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "信息"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,37,112,50,12
+    EDITTEXT        IDC_EDIT1,25,15,80,96,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 83
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 19
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 83
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 19
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\1.ico"
+IDI_ICON9               ICON    DISCARDABLE     "res\\9.ico"
+IDI_ICON8               ICON    DISCARDABLE     "res\\8.ico"
+IDI_ICON7               ICON    DISCARDABLE     "res\\7.ico"
+IDI_ICON6               ICON    DISCARDABLE     "res\\6.ico"
+IDI_ICON5               ICON    DISCARDABLE     "res\\5.ico"
+IDI_ICON4               ICON    DISCARDABLE     "res\\4.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\3.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\2.ico"
+IDI_ICON12              ICON    DISCARDABLE     "res\\12.ico"
+IDI_ICON11              ICON    DISCARDABLE     "res\\11.ico"
+IDI_ICON10              ICON    DISCARDABLE     "res\\10.ico"
+IDI_ICON13              ICON    DISCARDABLE     "res\\15.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_EXIT_FOCUS          BITMAP  DISCARDABLE     "res\\exit_foc.bmp"
+IDB_EXIT_NORMAL         BITMAP  DISCARDABLE     "res\\exit_nor.bmp"
+IDB_MAX_FOCUS           BITMAP  DISCARDABLE     "res\\max_focu.bmp"
+IDB_MAX_NORMAL          BITMAP  DISCARDABLE     "res\\max_norm.bmp"
+IDB_MIN_FOCUS           BITMAP  DISCARDABLE     "res\\min_focu.bmp"
+IDB_MIN_NORMAL          BITMAP  DISCARDABLE     "res\\min_norm.bmp"
+IDB_RESTORE_FOCUS       BITMAP  DISCARDABLE     "res\\res_focu.bmp"
+IDB_RESTORE_NORMAL      BITMAP  DISCARDABLE     "res\\res_norm.bmp"
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\mydebug.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
